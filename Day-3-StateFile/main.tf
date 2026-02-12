@@ -3,7 +3,7 @@ resource "aws_instance" "mhmo" {
     instance_type = "t2.medium"
     
     tags = {
-        Name = "MultiUserTest"
+        Name = "MultiUserTest-UpdateFromCode"
     }
 }
 
