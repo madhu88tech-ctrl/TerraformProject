@@ -7,7 +7,7 @@ resource "aws_instance" "mhmo" {
     }
 }
 
-resource "aws_s3_bucket" "example2" {
+resource "aws_s3_bucket" "example" {
   bucket = "mhmo-tf-test-bucket"
   #key    = "terraform.tfstate"
   region = "us-east-1"
