@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "example2" {
   #key    = "terraform.tfstate"
   region = "us-east-1"
   tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
+    Name        = "My bucket2"
+    Environment = "Dev2"
   }
 }
